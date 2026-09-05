@@ -1,0 +1,291 @@
+# E-book Selling Landing Page — `style.css`
+
+```css
+/* Basic CSS */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+
+/* Header */
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Buy Button */
+
+.buy-button {
+    background-color: #ff6b35;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.buy-button:hover {
+    background-color: #e85a2a;
+}
+
+
+/* Hero Section */
+
+.hero {
+    background-color: #e8f1ff;
+    padding: 60px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    width: 55%;
+}
+
+.hero-text h2 {
+    font-size: 40px;
+    color: #1d3557;
+}
+
+.hero-text p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.hero-text h3 {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.hero-image {
+    width: 30%;
+    text-align: center;
+}
+
+.hero-image img {
+    width: 220px;
+    height: 300px;
+    border: 3px solid #333;
+    border-radius: 10px;
+}
+
+
+/* About Section */
+
+.about {
+    background-color: white;
+    padding: 50px 15%;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.about p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.about li {
+    margin: 10px;
+}
+
+
+/* Features */
+
+.features-section {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.features-section h2 {
+    font-size: 30px;
+}
+
+.features {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.feature-card {
+    background-color: white;
+    width: 30%;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.feature-card h3 {
+    color: #1d3557;
+}
+
+.feature-card p {
+    line-height: 1.5;
+}
+
+
+/* Pricing */
+
+.pricing {
+    background-color: #e8f1ff;
+    padding: 50px;
+    text-align: center;
+}
+
+.price-card {
+    background-color: white;
+    width: 300px;
+    margin: 20px auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.old-price {
+    color: #777;
+    text-decoration: line-through;
+}
+
+.new-price {
+    color: #e63946;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+/* Order Form */
+
+.order {
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+form {
+    width: 350px;
+    margin: auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #ff6b35;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #e85a2a;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer a {
+    color: #ffb703;
+    text-decoration: none;
+}
+
+
+/* Mobile Responsive */
+
+@media (max-width: 700px) {
+
+    header {
+        display: block;
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 20px;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+
+    .hero {
+        display: block;
+        text-align: center;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .hero-text h2 {
+        font-size: 30px;
+    }
+
+    .hero-image {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .features {
+        display: block;
+    }
+
+    .feature-card {
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    form {
+        width: 90%;
+    }
+}
+```
